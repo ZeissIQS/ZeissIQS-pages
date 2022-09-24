@@ -29,3 +29,28 @@ git clone https://github.com/ZeissIQS/ZeissIQS-pages.git
 git clone https://github.com/ZeissIQS/ZeissIQS.github.io.git
 ~~~
 
+## Editing
+
+* Edit the documentation source (mostly markdown files) in the ZeissIQS-pages directory.
+* Execute 'make.bat' from that ZeissIQS-pages directory to update the target repository.
+* You can preview the generated documentation by opening ZeissIQS.github.io/index.html in a browser.
+
+## Uploading
+
+* Commit both source and target directory
+
+~~~
+cd ZeissIQS-pages
+git add -A
+git commit -m "Some useful message"
+git push
+
+cd ..
+
+cd ZeissIQS.github.io
+git add -A
+git commit -m "Some useful message"
+git push
+~~~
+
+* After the changes have been pushed into the 'ZeissIQS.github.io' repository, the live pages at [](https://zeissiqs.github.io) will be updated automatically after app. one minute.
