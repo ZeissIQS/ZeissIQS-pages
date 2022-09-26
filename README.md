@@ -31,9 +31,17 @@ git clone https://github.com/ZeissIQS/ZeissIQS.github.io.git
 
 ## Editing
 
+### Editing process
+
 * Edit the documentation source (mostly markdown files) in the ZeissIQS-pages directory.
 * Execute 'make.bat' from that ZeissIQS-pages directory to update the target repository.
 * You can preview the generated documentation by opening ZeissIQS.github.io/index.html in a browser.
+
+### Hints
+
+* The markdown syntax uses the [MyST parser extensions](https://myst-parser.readthedocs.io/en/latest/index.html).
+* The project documentation is based on [sphinx](https://www.sphinx-doc.org/en/master/index.html).
+
 
 ## Uploading
 
