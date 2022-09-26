@@ -13,7 +13,7 @@ author = 'Carl Zeiss GOM Metrology GmbH'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser', 'sphinx_rtd_theme']
+extensions = ['myst_parser', 'sphinx_rtd_theme', 'sphinx-favicon']
 source_suffix = ['.rst', '.md']
 exclude_patterns = ['README.md']
 
@@ -22,3 +22,14 @@ exclude_patterns = ['README.md']
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = "sphinx_rtd_theme"
+
+html_static_path = ["_static"]  # html_static_path is required if you use the "static-file" parameter
+
+favicons = [
+    {
+        "rel": "icon",
+        "sizes": "16x16",
+        "static-file": "favicon.png",  # => use `_static/favicon.png`
+        "type": "image/png",
+    }
+]
