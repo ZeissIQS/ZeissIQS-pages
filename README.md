@@ -1,6 +1,6 @@
 # ZeissIQS-pages
 
-Source the documentation in zeissiqs.github.io is generated from
+Source of the documentation in zeissiqs.github.io is generated from
 
 ## General
 
@@ -10,7 +10,7 @@ Source the documentation in zeissiqs.github.io is generated from
 
 ## Installation
 
-> For GOM software developers: The necessary tools are already part of the build system.
+> For GOM software developers: The necessary tools are already part of the build system. You do not need to execute the following steps !
 
 * You need a python 3 installation
 * Add the necessary python packages:
