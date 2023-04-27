@@ -1,1 +1,1 @@
-sphinx-build -b html . ..\ZeissIQS.github.io
+python -m sphinx -b html . ..\ZeissIQS.github.io
