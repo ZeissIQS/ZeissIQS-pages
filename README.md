@@ -49,6 +49,10 @@ git clone https://github.com/ZeissIQS/ZeissIQS.github.io.git
 
 ~~~
 cd ZeissIQS-pages
+
+# Perform edits
+make.bat
+
 git add -A
 git commit -m "Some useful message"
 git push
