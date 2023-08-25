@@ -1,8 +1,8 @@
-ZEISS Industry Quality Solutions
-================================
+ZEISS Industrial Quality Solutions
+==================================
 
 .. note::
-   Documentation for various ZEISS Industry Quality Solutions related projects.
+   Documentation for various ZEISS Industrial Quality Solutions related projects.
 
 ZEISS INSPECT software
 ----------------------

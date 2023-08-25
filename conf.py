@@ -6,14 +6,14 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'ZEISS Industry Quality Solutions'
-copyright = '2022, Carl Zeiss GOM Metrology GmbH'
+project = 'ZEISS Industrial Quality Solutions'
+copyright = '2023, Carl Zeiss GOM Metrology GmbH'
 author = 'Carl Zeiss GOM Metrology GmbH'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser', 'sphinx_rtd_theme', 'sphinx-favicon']
+extensions = ['myst_parser', 'sphinx_rtd_theme', 'sphinx_favicon']
 source_suffix = ['.rst', '.md']
 exclude_patterns = ['README.md']
 

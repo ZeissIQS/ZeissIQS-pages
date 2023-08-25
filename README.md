@@ -10,13 +10,13 @@ Source of the documentation in zeissiqs.github.io is generated from
 
 ## Installation
 
-> For GOM software developers: The necessary tools are already part of the build system. You do not need to execute the following steps !
+> For ZEISS IQS software developers: The necessary tools are already part of the build system. You do not need to execute the following steps !
 
-* You need a python 3 installation
-* Add the necessary python packages:
+* You need a Python 3 installation
+* Add the necessary Python packages:
 
 ~~~
-python -m pip install sphinx sphinx_rtd_theme myst_parser
+python -m pip install sphinx sphinx_rtd_theme myst_parser sphinx_favicon
 ~~~
 
 ## Repositories
