@@ -16,7 +16,7 @@ Source of the documentation in zeissiqs.github.io is generated from
 * Add the necessary Python packages:
 
 ~~~
-python -m pip install sphinx sphinx_rtd_theme myst_parser sphinx_favicon
+python -m pip install sphinx sphinx_rtd_theme myst_parser sphinx_favicon sphinx_sitemap
 ~~~
 
 ## Repositories
