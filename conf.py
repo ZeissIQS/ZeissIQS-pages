@@ -13,10 +13,13 @@ author = 'Carl Zeiss GOM Metrology GmbH'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['myst_parser', 'sphinx_rtd_theme', 'sphinx_favicon']
+extensions = ['myst_parser', 'sphinx_rtd_theme', 'sphinx_favicon', 'sphinx_sitemap']
 source_suffix = ['.rst', '.md']
 exclude_patterns = ['README.md']
 
+# -- Options for sitemap -----------------------------------------------------
+# https://sphinx-sitemap.readthedocs.io/en/latest/getting-started.html
+html_baseurl = 'https://zeissiqs.github.io/'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
