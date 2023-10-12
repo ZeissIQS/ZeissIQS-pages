@@ -29,6 +29,10 @@ html_theme = "sphinx_rtd_theme"
 
 html_static_path = ["_static"]  # html_static_path is required if you use the "static-file" parameter
 
+# -- Override some Read the Docs styles to match ZEISS branding ---------------
+# https://docs.readthedocs.io/en/stable/guides/adding-custom-css.html
+html_style = "css/theme_zeiss.css"
+
 favicons = [
     {
         "rel": "icon",
