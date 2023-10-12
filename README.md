@@ -1,6 +1,9 @@
 # ZeissIQS-pages
 
-Source of the documentation in zeissiqs.github.io is generated from
+Source of the documentation in [zeissiqs.github.io](https://zeissiqs.github.io/) is generated from.
+
+> [!NOTE]
+> Please see [ZEISS INSPECT Add-On Documentation 2023](https://zeissiqs.github.io/zeiss-inspect-addon-api/2023/) for the resulting rendered output.
 
 ## General
 
