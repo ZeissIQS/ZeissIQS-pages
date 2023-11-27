@@ -27,6 +27,10 @@ sitemap_url_scheme = "{link}"
 
 html_theme = "sphinx_rtd_theme"
 
+# "sphinx_rtd_theme" appends " &mdash; <project>  documentation" to the page heading -
+# this changes the title to "<page_heading> &mdash; <project>"
+html_title = project
+
 html_static_path = ["_static"]  # html_static_path is required if you use the "static-file" parameter
 
 # -- Override some Read the Docs styles to match ZEISS branding ---------------
