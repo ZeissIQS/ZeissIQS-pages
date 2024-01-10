@@ -19,7 +19,7 @@ Source of the generated documentation in [zeissiqs.github.io](https://zeissiqs.g
 * Add the necessary Python packages:
 
 ~~~
-python -m pip install sphinx sphinx_rtd_theme myst_parser sphinx_favicon sphinx_sitemap
+python -m pip install sphinx sphinx_rtd_theme myst_parser sphinx_favicon sphinx_sitemap sphinxcontrib-newsfeed
 ~~~
 
 ## Repositories
