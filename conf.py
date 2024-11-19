@@ -15,6 +15,7 @@ author = 'Carl Zeiss GOM Metrology GmbH'
 
 extensions = ['myst_parser', 'sphinx_rtd_theme', 'sphinx_favicon', 'sphinx_sitemap']
 source_suffix = ['.rst', '.md']
+templates_path = ['_templates']
 exclude_patterns = ['README.md']
 
 # -- Options for sitemap -----------------------------------------------------
