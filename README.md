@@ -9,7 +9,7 @@ Source of the generated documentation in [zeissiqs.github.io](https://zeissiqs.g
 
 * The documentation accessible via [ZeissIQS.github.io](https://github.com/ZeissIQS/ZeissIQS.github.io) is generated from the files in this repository.
 * The [sphinx documentation conversion tool](https://www.sphinx-doc.org) is used for that purpose.
-* The generated documentation is then committed into a repository with some special name and can the be rendered by the site [https://zeissiqs.github.io/].
+* The generated documentation is then committed into a repository with some special name and can the be rendered by the site https://zeissiqs.github.io/.
 
 ## Installation
 

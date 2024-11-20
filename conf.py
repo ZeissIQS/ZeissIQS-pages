@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'ZEISS Industrial Quality Solutions'
-copyright = '2023, Carl Zeiss GOM Metrology GmbH'
+copyright = '2024, Carl Zeiss GOM Metrology GmbH'
 author = 'Carl Zeiss GOM Metrology GmbH'
 
 # -- General configuration ---------------------------------------------------
@@ -15,6 +15,7 @@ author = 'Carl Zeiss GOM Metrology GmbH'
 
 extensions = ['myst_parser', 'sphinx_rtd_theme', 'sphinx_favicon', 'sphinx_sitemap']
 source_suffix = ['.rst', '.md']
+templates_path = ['_templates']
 exclude_patterns = ['README.md']
 
 # -- Options for sitemap -----------------------------------------------------
