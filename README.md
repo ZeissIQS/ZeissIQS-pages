@@ -1,3 +1,6 @@
+> [!CAUTION]
+> This repository has been moved to https://github.com/ZEISS/ZeissIQS-pages and will eventually be deleted!
+
 # ZeissIQS-pages
 
 Source of the generated documentation in [zeissiqs.github.io](https://zeissiqs.github.io/).
